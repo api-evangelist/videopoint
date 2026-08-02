@@ -1,7 +1,29 @@
 aid: videopoint
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/videopoint.png
 name: VideoPoint
-description: VideoPoint is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  VideoPoint is a Shopify app from TouchPoints Inc. (a 500 Global portfolio
+  company) that turns a merchant's existing product photos and videos into
+  shoppable, on-site experiences on product-detail and collection pages, with
+  the company reporting an 11-35% conversion uplift and 60-120x ROI from
+  existing content. It is part of the broader TouchPoints suite of AI-powered
+  Shopify apps (alongside TryPoint virtual try-on, plus A/B testing and
+  AI-powered chat) built to engage shoppers, boost conversions, and drive more
+  sales. VideoPoint ships as an embedded Shopify app installed from the Shopify
+  App Store; it exposes no public developer API, OpenAPI, or documentation
+  surface at this time. Added to the API Evangelist network as a company
+  profile and enrichment lead.
 url: https://raw.githubusercontent.com/api-evangelist/videopoint/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Shopify
+- E-Commerce
+- Video
+- Conversion Optimization
+- Shoppable Video
+- AI
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/videopoint-domain-security.yml
 - type: Website
   url: https://touchpoints.cx
+- type: SignUp
+  url: https://apps.shopify.com/videopoint-shoppable-video
+- type: Support
+  url: mailto:hi@touchpoints.cx
+- type: LinkedIn
+  url: https://www.linkedin.com/company/touchpointscx/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
